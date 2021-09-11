@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import * as React from 'react';
 import './App.css';
+import CreateGoalAchieve from './Create_goal_achieve';
+import ImageVideoAchieve from './Image_video_achieve';
+import CreateCauseAchieve from './Create_cause_achieve';
+import ObjectiveAchieve from './Objective_achieve';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <CreateGoalAchieve /> */}
+        {/* <ImageVideoAchieve /> */}
+        {/* <CreateCauseAchieve /> */}
+        <ObjectiveAchieve />
     </div>
   );
 }

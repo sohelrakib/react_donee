@@ -1,0 +1,40 @@
+.h4_goal_achieve{
+    font-weight: bold !important;
+    padding-bottom: 20px;
+}
+.h5_goal_achieve{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.left_div_goal_achieve{
+    padding-right: 4%;
+}
+.right_div_goal_achieve{
+    padding-left: 4%;
+}
+
+.button_goal_achieve{
+    margin-top: 40px !important;
+    background: #7aedd6 !important;
+    color: white !important;
+    width: 200px;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    border-radius: 18px !important;
+    text-transform: capitalize !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.grid_goal_achieve{
+    border: 1px solid rgb(170, 169, 169);
+    padding: 50px 4px;
+    margin: 1px;
+    border-radius: 10px;
+}
+.grid_goal_achieve img {
+    margin-bottom: 15px;
+}
+.grid_goal_achieve input{
+    font-size: 11px;
+}
